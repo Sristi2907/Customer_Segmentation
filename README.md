@@ -1,108 +1,68 @@
 🛍️ Customer Segmentation Using Python
+
 📌 Project Overview
 
 This project focuses on customer segmentation using machine learning techniques. The main goal is to group customers into distinct segments based on their behavior and demographics, which can help businesses:
+● Improve marketing strategies
 
-Improve marketing strategies
+● Provide personalized recommendations
 
-Provide personalized recommendations
+● Enhance customer experience
 
-Enhance customer experience
-
-📂 Dataset
-
+📂 Dataset:
 The dataset used is Shopping Mall Customer Segmentation Data.csv, which contains customer details such as:
 
-Customer ID
-
-Gender
-
-Age
-
-Annual Income (k$)
-
-Spending Score (1–100)
+● Customer ID
+● Gender
+● Age
+● Annual Income (k$)
+● Spending Score (1–100)
 
 🔑 Steps in the Project
+1. Data Cleaning & Preprocessing
 
-Data Cleaning & Preprocessing
+   ● Handling missing values
+   ● Checking data types
 
-Handling missing values
+2. Exploratory Data Analysis (EDA)
 
-Checking data types
+   ● Visualizing age distribution, income, and spending score
+   ● Gender-based analysis
 
-Exploratory Data Analysis (EDA)
+3. Feature Engineering
 
-Visualizing age distribution, income, and spending score
+   ● Selecting features for clustering
 
-Gender-based analysis
+4. Clustering (K-Means)
 
-Feature Engineering
+   ● Finding optimal clusters using the Elbow Method
+   ● Applying K-Means clustering
+   ● Labeling customer groups
 
-Selecting features for clustering
+5. Visualization
 
-Clustering (K-Means)
-
-Finding optimal clusters using the Elbow Method
-
-Applying K-Means clustering
-
-Labeling customer groups
-
-Visualization
-
-Cluster visualization using Matplotlib & Seaborn
-
-Interpreting customer segments
+   ● Cluster visualization using Matplotlib & Seaborn
+   ● Interpreting customer segments
 
 🛠️ Technologies Used
-
-Python
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
+ ●  Python
+ ●  NumPy
+ ●  Pandas
+ ●  Matplotlib
+ ●  Seaborn
+ ●  Scikit-learn   
 
 📊 Results
-
-Customers were segmented into 5 distinct groups based on annual income and spending score.
-
-Each segment represents a different purchasing behavior (e.g., high income–low spending, low income–high spending, etc.).
-
-
-🚀 How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/Sristi2907/Customer_Segmentation.git
-cd Customer_Segmentation
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the Jupyter notebook:
-
-jupyter notebook Customer_Segmentation.ipynb
+ ●  Customers were segmented into 5 distinct groups based on annual income and spending score.
+ ●  Each segment represents a different purchasing behavior (e.g., high income–low spending, low income–high spending, etc.).
 
 📢 Future Improvements
 
-Try Hierarchical Clustering and compare results
-
-Build an interactive dashboard in Power BI or Tableau
-
-Deploy clustering model using Streamlit
+ ●  Try Hierarchical Clustering and compare results
+ ●  Build an interactive dashboard in Power BI or Tableau
+ ●  Deploy clustering model using Streamlit
 
 🤝 Connect with Me
+🔗 LinkedIn :- www.linkedin.com/in/sristi-raj-433602217
 
-🔗 www.linkedin.com/in/sristi-raj-433602217
-
-📂 https://github.com/Sristi2907
+📂 GitHub :- https://github.com/Sristi2907
