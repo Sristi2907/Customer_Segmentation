@@ -10,7 +10,7 @@ This project focuses on customer segmentation using machine learning techniques.
 ● Enhance customer experience
 
 📂 Dataset:
-The dataset used is Shopping Mall Customer Segmentation Data.csv, which contains customer details such as:
+The dataset used contains customer details such as:
 
 ● Customer ID
 ● Gender
